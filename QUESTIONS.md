@@ -14,6 +14,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## 4.soru
 
+İlk baştaki kodda this dışarıya ulaşamıyor. Bunu sağlamak için Promise içerisini arrow function haline çeviriyoruz. Böylece this artık parent'ı işaret edecek ve func2'ye ulaşabilecektir.
+
 ```
 let parent = {
     func2: function () {
