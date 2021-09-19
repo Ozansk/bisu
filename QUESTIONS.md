@@ -10,7 +10,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## 3.soru
 
-Express içerisinde bulunan set methodu ile bir değişkene eğer atayarak global olarak kullanabiliriz. Eğer bir classı global olarak kullanmak istiyorsak, export eddebiliriz ve require methodu ile başka bir yeren ulaşabiliriz.
+Express içerisinde bulunan set methodu ile bir değişkene eğer atayarak global olarak kullanabiliriz. Eğer bir classı global olarak kullanmak istiyorsak, export edebiliriz ve require methodu ile başka bir yerden ulaşabiliriz.
 
 ## 4.soru
 
