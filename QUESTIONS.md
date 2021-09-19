@@ -14,4 +14,21 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## 4.soru
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+let parent = {
+    func2: function () {
+        return new Promise(function (resolve, reject) {
+            return resolve(1);
+        });
+    },
+    func1: function () {
+        return new Promise((resolve, reject) => {
+            this.func2().then((count) => {
+                console.log(count + 1);
+            });
+        });
+    }
+}
+parent.func1();
+
+```
