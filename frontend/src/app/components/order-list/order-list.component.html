@@ -1,0 +1,37 @@
+<div class="form-group">
+  <h3>Orders</h3>
+  <div class="input-group">
+    <input id="userInput" type="text" class="form-control" placeholder="Subscription ID" />
+    <div class= "input-group-append">
+      <button class="btn btn-primary" (click)="onClick()">
+        Search Order
+      </button>
+    </div>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-hover table-dark" style="width: 90%; margin-left: 75px; margin-top: 40px">
+      <thead>
+        <tr>
+          <th scope="col">Subscription Id</th>
+          <th scope="col">Order Id</th>
+          <th scope="col">Delivery Date</th>
+          <th scope="col">Payment Method</th>
+          <th scope="col">Products</th>
+          <th scope="col">Total Amount</th>
+          <th scope="col">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let order of Orders; let i = index">
+          <th scope="row">{{order.subscriptionId}}</th>
+          <td>{{order.orderId}}</td>
+          <td>{{order.deliveryDate}}</td>
+          <td>{{order.paymentMethod}}</td>
+          <td>{{order.products}}</td>
+          <td>{{order.totalAmount}}</td>
+          <td>{{order.status}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

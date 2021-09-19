@@ -1,0 +1,42 @@
+<div class="form-group">
+  <h3>Customers</h3>
+  <div class="input-group">
+    <input id="userInput" type="text" class="form-control" placeholder="Phone Number" />
+    <div class= "input-group-append">
+      <button class="btn btn-primary" (click)="onClick()">
+        Search Customer
+      </button>
+    </div>
+  </div>
+
+  <div class="table-responsive">
+    <table class="table table-hover table-dark" style="width: 90%; margin-left: 75px; margin-top: 40px">
+      <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Address</th>
+          <th scope="col">Location</th>
+          <th scope="col">Subcity</th>
+          <th scope="col">City</th>
+          <th scope="col">Brand</th>
+          <th scope="col">Phone Number</th>
+          <th scope="col">Distributor Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of Customers; let i = index">
+          <th scope="row">{{user.subscriptionId}}</th>
+          <td>{{user.fullname}}</td>
+          <td>{{user.address}}</td>
+          <td>{{user.locationName}}</td>
+          <td>{{user.subCityName}}</td>
+          <td>{{user.cityName}}</td>
+          <td>{{user.brand}}</td>
+          <td>{{user.phoneNumber}}</td>
+          <td>{{user.distributorNumber}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
