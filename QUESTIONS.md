@@ -10,7 +10,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## 3.soru
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Express içerisinde bulunan set methodu ile bir değişkene eğer atayarak global olarak kullanabiliriz. Eğer bir classı global olarak kullanmak istiyorsak, export eddebiliriz ve require methodu ile başka bir yeren ulaşabiliriz.
 
 ## 4.soru
 
