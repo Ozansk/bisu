@@ -2,7 +2,7 @@
 
 ## 1.soru
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Asynchronous durumlarda callback kullanabiliriz ve bu iç içe bir durum oluşturuğuna çok fazla karışıklık oluştuğunu gözlemleriz. Bu duruma callback hell adını veriyoruz. Bu durumdan kurtulmak için async/await kullanabiliriz. Bu sayede karışık bir durumdan, daha kolay takip edilebilir bir duruma geçiş yapabiliriz. Fonksiyon başına async ekliyoruz ve içerisine await ile beklenmesi gereken processi belirtebiliyoruz.
 
 ## 2.soru
 
