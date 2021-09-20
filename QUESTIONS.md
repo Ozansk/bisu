@@ -6,11 +6,11 @@ Asynchronous durumlarda callback kullanabiliriz ve bu iç içe bir durum oluştu
 
 ## 2.soru
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Event queue üzerinde gelen istekler tutuluyor. Event loop burada istek olup olmadığını kontrol ediyor. Eğer isteğe ulaşırsa ve istek herhangi bir blocking işlemi oluşturmuyorsa işlemi gerçekleştirir, cevabı oluşturur ve geri döner. Eğer blocking işlemi oluşuyorsa bu uruma yeni bir thread'i bu göreve atar. 
 
 ## 3.soru
 
-Express içerisinde bulunan set methodu ile bir değişkene değer atayarak global olarak kullanabiliriz. Eğer bir classı global olarak kullanmak istiyorsak, export edebiliriz ve require methodu ile başka bir yerden ulaşabiliriz.
+Express içerisinde bulunan set methodu ile bir değişkene değer atayarak global olarak kullanabiliriz. Eğer bir classı global olarak kullanmak istiyorsak, export edebiliriz ve require methodu ile başka bir yerden ulaşabiliriz. Başına global koyarak(global.globalVariable) da bu işlemi gerçekleştirebiliriz.
 
 ## 4.soru
 
