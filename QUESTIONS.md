@@ -2,11 +2,11 @@
 
 ## 1.soru
 
-Asynchronous durumlarda callback kullanabiliriz ve bu iç içe bir durum oluşturuğuna çok fazla karışıklık oluştuğunu gözlemleriz. Bu duruma callback hell adını veriyoruz. Bu durumdan kurtulmak için async/await kullanabiliriz. Bu sayede karışık bir durumdan, daha kolay takip edilebilir bir duruma geçiş yapabiliriz. Fonksiyon başına async ekliyoruz ve içerisine await ile beklenmesi gereken processi belirtebiliyoruz.
+Asynchronous durumlarda callback kullanabiliriz ve bu iç içe bir durum oluşturuğunda çok fazla karışıklık oluştuğunu gözlemleriz. Bu duruma callback hell adını veriyoruz. Bu durumdan kurtulmak için async/await kullanabiliriz. Bu sayede karışık bir durumdan, daha kolay takip edilebilir bir duruma geçiş yapabiliriz. Fonksiyon başına async ekliyoruz ve içerisine await ile beklenmesi gereken processi belirtebiliyoruz.
 
 ## 2.soru
 
-Event queue üzerinde gelen istekler tutuluyor. Event loop burada istek olup olmadığını kontrol ediyor. Eğer isteğe ulaşırsa ve istek herhangi bir blocking işlemi oluşturmuyorsa işlemi gerçekleştirir, cevabı oluşturur ve geri döner. Eğer blocking işlemi oluşuyorsa bu uruma yeni bir thread'i bu göreve atar. 
+Event queue üzerinde gelen istekler tutuluyor. Event loop burada istek olup olmadığını kontrol ediyor. Eğer isteğe ulaşırsa ve istek herhangi bir blocking işlemi oluşturmuyorsa işlemi gerçekleştirir, cevabı oluşturur ve geri döner. Eğer blocking işlemi oluşuyorsa bu durumda yeni bir thread'i bu göreve atar. 
 
 ## 3.soru
 
